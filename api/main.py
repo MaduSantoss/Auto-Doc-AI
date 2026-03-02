@@ -17,7 +17,7 @@ app = FastAPI(
     version="1.1.0"
 )
 
-# Configuração de CORS simplificada para Serverless
+# Configuração de CORS 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
